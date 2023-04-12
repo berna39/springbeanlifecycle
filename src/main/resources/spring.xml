@@ -14,5 +14,5 @@
 <!--        <property name="firstName" value="Shango" />-->
 <!--    </bean>-->
 
-    <bean id="beanPostProcessor" class="com.terminator.CustomBeanPostProcessor" />
+<!--    <bean id="beanPostProcessor" class="com.terminator.CustomBeanPostProcessor" />-->
 </beans>
