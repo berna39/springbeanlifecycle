@@ -7,12 +7,8 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.terminator"></context:component-scan>
-
-<!--    <bean id="student" class="com.terminator.basics.Student">-->
-<!--        <constructor-arg name="firstName" value="Berna" />-->
-<!--        <property name="firstName" value="Shango" />-->
-<!--    </bean>-->
-
-<!--    <bean id="beanPostProcessor" class="com.terminator.basics.CustomBeanPostProcessor" />-->
+<!--    <bean id="product" class="com.terminator.autowiring.Product" autowire="byType" />-->
+<!--    <bean id="product" class="com.terminator.autowiring.Product" autowire="byType" />-->
+    <bean id="product" class="com.terminator.autowiring.Product" autowire="constructor" />
+    <bean id="category" class="com.terminator.autowiring.Category" />
 </beans>

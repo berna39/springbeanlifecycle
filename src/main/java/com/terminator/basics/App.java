@@ -1,4 +1,4 @@
-package com.terminator;
+package com.terminator.basics;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
