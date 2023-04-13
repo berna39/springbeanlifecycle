@@ -5,7 +5,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Product {
-    @Autowired
+    //@Autowired
     private Category category;
     private String name;
+
+    @Autowired
+    public void setCategory(Category category) {
+        this.category = category;
+    }
 }
