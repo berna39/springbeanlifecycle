@@ -1,4 +1,4 @@
-package com.terminator.autowiringannotation;
+package com.terminator.autoconfiguration;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,4 +1,4 @@
-package com.terminator.autowiringannotation;
+package com.terminator.autoconfiguration;
 
 import org.springframework.stereotype.Component;
 
