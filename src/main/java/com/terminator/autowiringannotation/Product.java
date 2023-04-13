@@ -9,8 +9,14 @@ public class Product {
     private Category category;
     private String name;
 
-    @Autowired
-    public void setCategory(Category category) {
+    // this is Better to avoid Circular Dependency and Easier to test (because we don't need to mock Category instance)
+    // Spring will automatically create an instance and inject it
+    public Product(Category category) {
         this.category = category;
     }
+
+//    @Autowired
+//    public void setCategory(Category category) {
+//        this.category = category;
+//    }
 }
