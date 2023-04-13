@@ -8,7 +8,7 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
 <!--    <bean id="product" class="com.terminator.autowiring.Product" autowire="byType" />-->
-<!--    <bean id="product" class="com.terminator.autowiring.Product" autowire="byType" />-->
+<!--    <bean id="product" class="com.terminator.autowiring.Product" autowire="byName" />-->
     <bean id="product" class="com.terminator.autowiring.Product" autowire="constructor" />
     <bean id="category" class="com.terminator.autowiring.Category" />
 </beans>
